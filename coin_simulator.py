@@ -9,5 +9,5 @@ for i in range(100):
 heads = results.count("head")
 tails = results.count("tail")
 
-print("Heads:", heads)
-print("Tails:", tails)
+print("Percentage heads:", heads / 100)
+print("Percentage tails:", tails / 100)
